@@ -1,8 +1,6 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="resume-container">
+    <div>
       <main>
         <header className="resume-header">
           <h1>Sarath PS</h1>
