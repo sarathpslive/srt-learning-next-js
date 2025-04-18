@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="resume-container">
+      <body className="bucketlist-container">
         {children}
       </body>
     </html>

@@ -1,6 +1,7 @@
-/* Resume Styles */
-.resume-container {
+/* bucketlist Styles */
+.bucketlist-container {
   max-width: 800px;
+  height: 100vh;
   margin: 2rem auto;
   padding: 2rem;
   background: linear-gradient(to bottom, #ffffff, #f9fafc);
@@ -10,19 +11,19 @@
   color: #333;
 }
 
-.resume-header {
+.bucketlist-header {
   text-align: center;
   margin-bottom: 2.5rem;
 }
 
-.resume-header h1 {
+.bucketlist-header h1 {
   font-size: 2.5rem;
   font-weight: 700;
   color: #2c3e50;
   position: relative;
 }
 
-.resume-header h1::after {
+.bucketlist-header h1::after {
   content: '';
   display: block;
   width: 60px;
@@ -32,16 +33,16 @@
   border-radius: 2px;
 }
 
-.resume-header p {
+.bucketlist-header p {
   font-size: 1.1rem;
   color: #7f8c8d;
 }
 
-.resume-section {
+.bucketlist-section {
   margin-bottom: 2.5rem;
 }
 
-.resume-section h2 {
+.bucketlist-section h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
   position: relative;
@@ -49,7 +50,7 @@
   color: #34495e;
 }
 
-.resume-section h2::after {
+.bucketlist-section h2::after {
   content: '';
   display: block;
   width: 120px;
@@ -61,23 +62,23 @@
   border-radius: 2px;
 }
 
-.resume-section ul {
+.bucketlist-section ul {
   list-style: none;
   padding: 0;
 }
 
-.resume-section ul li {
+.bucketlist-section ul li {
   margin-bottom: 0.75rem;
   line-height: 1.6;
   color: #2c3e50;
 }
 
-.resume-section ul li span {
+.bucketlist-section ul li span {
   font-weight: 600;
   color: #2980b9;
 }
 
-.resume-footer {
+.bucketlist-footer {
   text-align: center;
   font-size: 0.9rem;
   background: linear-gradient(to right, #ecf0f1, #bdc3c7);
